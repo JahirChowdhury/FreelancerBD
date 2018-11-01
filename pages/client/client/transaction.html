@@ -1,0 +1,93 @@
+<head>
+        <script src="../../../js/jquery.min.js"></script>
+        <link rel="stylesheet" href="../../../bootstrap-3.3.7/css/bootstrap.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+        <script src="../../../js/popper.js"></script>
+        <script src="../../../bootstrap-3.3.7/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="../../../adminCss/style.css">
+      
+    </head>
+<div class="modal fade" id="closeModal" tabindex="-1">
+ 
+    <div class="modal-dialog">
+        <div class="modal-content">
+        
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Action Completed!</h4>
+            </div>
+            <div class="modal-body">
+            
+                <p>Your Last Transaction Freezed!</p>
+            </div>
+            <div class="modal-footer">
+                
+                <button class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="new">
+    <form>
+    <legend>Transaction List</legend>
+    
+    <div class="col-xs-6 col-md-4"></div>
+        <div class="col-xs-6 col-md-4">
+            
+              
+    
+        
+        </div>
+    
+       
+
+        <table class="table">
+       
+         <tr>
+            <th >Project Title</th>
+            <th>Freelancer Name </th>
+             <th>Amount</th>
+             <th>Bkash No</th>
+             <th>Payment Date </th>
+             
+            
+         </tr>
+         <tr>
+            <td>Job1</td>
+            <td>Abir</td>
+            <td>15000BDT</td>
+             <td>0256589</td>
+             <td>23/05/2018</td>
+             
+             
+              
+             
+         </tr>
+          <tr>
+            <td>Job2</td>
+            <td>Arafat</td>
+            <td>2800BDT</td>
+              <td>5256984</td>
+             <td>06/11/2017</td>
+            
+           
+         </tr>
+           <tr>
+            <td>Job3 </td>
+            <td>Shams</td>
+            <td>5200BDT</td>
+               <td>12125852 </td>
+             <td>07/01/2018</td>
+        
+            
+            
+         </tr>
+            
+      </table>
+        <a href="3" data-toggle="modal" data-target="#closeModal"><input type="submit"   value="Freeze My Last Transaction" ></a>
+    </form>
+</div>
